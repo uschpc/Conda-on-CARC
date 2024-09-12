@@ -10,7 +10,7 @@ We will use Conda to build software packages. If it is the first time you are us
 
 First, we need to request an interactive session:
 ```bash
-salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 --account=irahbari_1147
+salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 --account=pishgar_1407
 ```
 
 ```
