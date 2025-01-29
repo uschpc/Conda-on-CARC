@@ -21,7 +21,7 @@ source ~/.bashrc
 module purge
 ```
 ```
-mamba create --name torch-env
+mamba create --name torch-env python==3.12
 mamba activate torch-env
 mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 mamba install line_profiler --channel conda-forge   #optional, needed if you want to use line_profiler function within your code
